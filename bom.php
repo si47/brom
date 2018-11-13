@@ -52,5 +52,5 @@ Cookie: identity=".$rand1."; browser_id=".$rand2."; _ga=GA1.2.1024758930.1531960
 	curl_setopt($ch, CURLOPT_POSTFIELDS, $ar);
 	$asw = curl_exec($ch);
 	curl_close($ch);
-	print "\033[1;32m[\033[1;35m$a\033[1;32m] Sukses Mengirim Spam Ke \033[1;35m$nomer \033[1;32m√\n\033[1;32m";
+	print "\036[1;32m[\036[1;35m$a\036[1;32m] Sukses Mengirim Spam Ke \036[1;35m$nomer \036[1;32m√\n\036[1;32m";
 }
